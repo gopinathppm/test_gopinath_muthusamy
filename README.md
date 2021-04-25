@@ -15,15 +15,15 @@ npm config set registry https://registry.npmjs.org/ --global
 npm config set strict-ssl false
 npm config set strict-ssl false --global
 
-Access to gitlabs ``
+Access to gitlabs `https://github.com/gopinathppm/test_gopinath_muthusamy.git`
 
 ## Framework Installation
 * clone the repository from github
     Using SSH
-        ``
+        `git@github.com:gopinathppm/test_gopinath_muthusamy.git`
     Using HTTPS along with your sandbox credentials
-        ``
-* Move to the folder 'test' from the root of the repository
+        `https://github.com/gopinathppm/test_gopinath_muthusamy.git`
+
 * Install the dependencies using the commands `npm install` or `yarn install`
 
 ### Browser driver configurations
@@ -43,8 +43,7 @@ https://github.com/wswebcreation/wdio-cucumberjs-json-reporter/tree/v5
 
 Attached the test report for the execution
 
+test/support/screenshots/execution_screenshot.png
 
-
-Feature file:
-
-An example feature has been created to launch chrome and go to facebook.com, then log in
+To check in details:
+Please open the below file in browser test/support/htmlReport/index.html
